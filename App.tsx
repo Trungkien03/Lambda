@@ -1,4 +1,4 @@
-import DialogManager from "@app/UI/DialogManager";
+import DialogManager from "@app/components/UI/DialogManager";
 import store from "@app/stores";
 import { config, lightTheme } from "@app/themes";
 import { NavigationContainer } from "@react-navigation/native";

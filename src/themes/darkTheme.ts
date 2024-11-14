@@ -8,7 +8,7 @@ const darkThemeColors = {
   background: "#000000",
   backgroundIcon: "#DDE0FF",
   button: {
-    active: "#4284F4",
+    active: "#48C690",
     inactive: "#9E9E9E",
   },
   skeleton: {

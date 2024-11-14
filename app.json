@@ -13,7 +13,8 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.dev.todo.list"
+      "bundleIdentifier": "com.dev.lambda",
+      "googleServicesFile": "./GoogleService-Info.plist"
     },
     "android": {
       "adaptiveIcon": {
@@ -29,7 +30,21 @@
     "plugins": [
       "@react-native-firebase/app",
       "@react-native-firebase/auth",
-      "@react-native-firebase/crashlytics"
+      "@react-native-firebase/crashlytics",
+      [
+        "expo-build-properties",
+        {
+          "ios": {
+            "useFrameworks": "static"
+          }
+        }
+      ],
+      [
+        "@react-native-google-signin/google-signin",
+        {
+          "iosUrlScheme": "com.googleusercontent.apps.858190888007-4o1v5hjv7419m2mrlcdm8vqh25ogktf6"
+        }
+      ]
     ]
   }
 }

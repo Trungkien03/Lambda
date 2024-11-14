@@ -10,8 +10,11 @@ const lightThemeColors = {
   titlePage: "#5EDFF5",
   background: "#F7F8FC",
   backgroundIcon: "#DDE0FF",
+  mainColor: {
+    button: "#48C690",
+  },
   button: {
-    active: "#4284F4",
+    active: "#48C690",
     inactive: "#9E9E9E",
   },
   backgroundCourseCard: "#FFFFFF",
