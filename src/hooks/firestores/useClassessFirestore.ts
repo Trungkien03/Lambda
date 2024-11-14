@@ -6,7 +6,7 @@ import firestore, {
 const useClassesFirestore = () => {
   const fetchClasses = async (): Promise<Class[]> => {
     try {
-      const snapshot = await firestore().collection("classes").get();
+      const snapshot = await firestore().collection("yoga_classes").get();
       return snapshot.docs.map((doc) => ({
         id: doc.id,
         ...doc.data(),

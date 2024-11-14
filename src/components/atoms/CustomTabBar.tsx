@@ -22,7 +22,6 @@ const CustomTabBar = ({
 
         const isFocused = state.index === index;
 
-        // Xác định iconName và màu sắc cho từng tab
         let iconName: keyof typeof Ionicons.glyphMap;
         switch (route.name) {
           case "home":
